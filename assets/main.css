@@ -1,0 +1,870 @@
+body  {
+    background-color: black;
+    overflow-y: hidden;
+}
+
+.maintitle {
+font-family: 'Noto Sans SC';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 53px;
+text-transform: uppercase;
+
+color: #871E1E;
+position: fixed;
+top: 20px;
+left: 30px;
+}
+
+.subtitle {
+    font-family: 'Noto Sans SC';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17.5px;
+    line-height: 53px;
+    text-transform: uppercase;
+    
+    color: #871E1E;
+    position: fixed;
+    top: 50px;
+    left: 30px;
+}
+
+.about {
+
+    font-family: 'Noto Sans SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: uppercase;
+    border: 2.5px solid transparent;
+    color: #871E1E;
+    width: 95px;
+    position: fixed;
+    right: 300px;
+    top: 20px;
+    padding-left: 12px;
+    padding-bottom: 3px;
+}
+
+.about:hover {
+    border: 2.5px solid #871E1E;
+    border-radius: 50px;
+}
+
+.index {
+    font-family: 'Noto Sans SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: uppercase;
+    border: 2.5px solid transparent;
+    color: #871E1E;
+    width: 85px;
+    position: fixed;
+    right: 160px;
+    top: 20px;
+    padding-left: 12px;
+    padding-bottom: 3px;
+}
+
+.index:hover {
+    border: 2.5px solid #871E1E;
+    border-radius: 50px;
+}
+
+.language {
+    font-family: 'Noto Sans SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    text-transform: uppercase;
+    border: 2.5px solid #871E1E;
+    border-radius: 50px;
+    color: #871E1E;
+    width: 60px;
+    height: 30px;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    padding-left: 19px;
+    padding-top: 1.5px;
+    padding-bottom: 8px;
+}
+
+a:link { 
+    text-decoration: none; 
+    color: #871E1E;
+
+}
+a:visited { 
+    text-decoration: none; color: #871E1E;
+}
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+#data-output {
+    color: #871E1E;
+    font-family: 'Noto Serif SC', serif;
+    font-weight: 900;
+    position: absolute;
+    top: 65px;
+    left: 135px;
+    border: 1px solid transparent;
+    width: 800px;
+}
+
+.word1 {
+ /* 破鞋 */
+
+font-family: 'Noto Serif SC';
+font-style: normal;
+font-weight: 900;
+font-size: 180px;
+letter-spacing: -0.05em;
+line-height: 150px;
+
+color: #871E1E;
+position: absolute;
+left: 10px;
+top: 50px;
+width: 350px;
+}
+
+.word1:hover {
+    cursor: pointer;
+}
+
+.word2 {
+/* 荡妇 */
+
+font-family: 'Noto Serif SC';
+font-style: normal;
+font-weight: 900;
+font-size: 280px;
+line-height: 250px;
+/* or 100% */
+letter-spacing: -0.05em;
+color: #871E1E;
+position: absolute;
+top: 220px;
+left: 175px;
+width: 550px;
+}
+
+.word3 {
+/* 黑木耳 */
+font-family: 'Noto Serif SC';
+font-style: normal;
+font-weight: 900;
+font-size: 128px;
+line-height: 184px;
+letter-spacing: -0.05em;
+
+color: #871E1E;
+position: absolute;
+top: 55px;
+left: 362px;
+width: 100%;
+}
+
+.word4 {
+/* 捞女 */
+font-family: 'Noto Serif SC';
+font-style: normal;
+font-weight: 900;
+font-size: 100px;
+line-height: 138px;
+letter-spacing: -0.05em;
+color: #871E1E;
+position: absolute;
+top: 200px;
+left: -10px;
+width: 100%;
+}
+
+.word5 {
+/* 女拳 */
+font-family: 'Noto Serif SC';
+font-style: normal;
+font-weight: 900;
+font-size: 110px;
+line-height: 138px;
+letter-spacing: -0.05em;
+
+color: #871E1E;
+position: absolute;
+left: 470px;
+top: 470px;
+width: 100%;
+}
+
+.word6 {
+/* 娼妓 */
+font-family: 'Noto Serif SC';
+font-style: normal;
+font-weight: 900;
+font-size: 170px;
+line-height: 244px;
+letter-spacing: -0.05em;
+
+color: #871E1E;
+position: absolute;
+left: 710px;
+top: 140px;
+width: 100%;
+}
+
+.word7 {
+/* 嫉妒 */
+font-family: 'Noto Serif SC';
+font-style: normal;
+font-weight: 900;
+font-size: 200px;
+line-height: 287px;
+letter-spacing: -0.05em;
+
+color: #871E1E;
+position: absolute;
+top: 300px;
+left: 980px;
+width: 100%;
+}
+
+.word8 {
+    /* 公交车 */
+font-family: 'Noto Serif SC';
+font-style: normal;
+font-weight: 900;
+font-size: 128px;
+line-height: 184px;
+letter-spacing: -0.05em;
+
+color: #871E1E;
+position: absolute;
+top: 460px;
+left: 100px;
+width: 100%;
+}
+
+.word9 {
+/* 坦克 */
+font-family: 'Noto Serif SC';
+font-style: normal;
+font-weight: 900;
+font-size: 128px;
+line-height: 184px;
+letter-spacing: -0.05em;
+
+color: #871E1E;
+position: absolute;
+left: 730px;
+top: 30px;
+width: 100%;
+}
+
+.word10 {
+/* 母狗 */
+font-family: 'Noto Serif SC';
+font-style: normal;
+font-weight: 900;
+font-size: 280px;
+line-height: 402px;
+letter-spacing: -0.05em;
+
+color: #871E1E;
+position: absolute;
+left: 1025px;
+width: 100%;
+}
+
+.word11 {
+    /* 幕刃 */
+    font-family: 'Noto Serif SC';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 125px;
+    line-height: 402px;
+    letter-spacing: -0.05em;
+    
+    color: #871E1E;
+    position: absolute;
+    left: 1370px;
+    top: 210px;
+    width: 100%;
+}
+
+.word12 {
+        /* 名媛 */
+        font-family: 'Noto Serif SC';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 260px;
+        line-height: 402px;
+        letter-spacing: -0.05em;
+        
+        color: #871E1E;
+        position: absolute;
+        left: 1610px;
+        top: 150px; 
+        width: 100%;   
+}
+
+.word13 {
+    /* 婊子 */
+    font-family: 'Noto Serif SC';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 225px;
+    line-height: 402px;
+    letter-spacing: -0.05em;
+    
+    color: #871E1E;
+    position: absolute;
+    left: 2105px;
+    top: 95px; 
+    width: 100%;  
+}
+
+.word14 {
+    /* 傻逼 */
+    font-family: 'Noto Serif SC';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 130px;
+    line-height: 402px;
+    letter-spacing: -0.05em;
+    
+    color: #871E1E;
+    position: absolute;
+    left: 2035px;
+    top: -80px; 
+    width: 100%;  
+}
+
+.word15 {
+        /* 奴 */
+        font-family: 'Noto Serif SC';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 275px;
+        line-height: 402px;
+        letter-spacing: -0.05em;
+        
+        color: #871E1E;
+        position: absolute;
+        left: 708px;
+        top: 275px;
+        width: 100%;
+}
+
+.word16 {
+        /* 婢 */
+        font-family: 'Noto Serif SC';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 150px;
+        line-height: 402px;
+        letter-spacing: -0.05em;
+        
+        color: #871E1E;
+        position: absolute;
+        left: 1300px;
+        top: 350px; 
+        width: 100%;
+}
+
+.word17 {
+    /* 长舌妇 */
+    font-family: 'Noto Serif SC';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 160px;
+    line-height: 402px;
+    letter-spacing: -0.05em;
+    
+    color: #871E1E;
+    position: absolute;
+    left: 1570px;
+    top: -50px; 
+    width: 100%;
+}
+
+.word18 {
+    /* 小姐 */
+    font-family: 'Noto Serif SC';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 170px;
+    line-height: 402px;
+    letter-spacing: -0.05em;
+    
+    color: #871E1E;
+    position: absolute;
+    left: 2090px;
+    top: 290px; 
+    width: 100%;
+}
+
+.word19 {
+    /* 拜金女 */
+    font-family: 'Noto Serif SC';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 220px;
+    line-height: 402px;
+    letter-spacing: -0.05em;
+    
+    color: #871E1E;
+    position: absolute;
+    left: 2420px;
+    top: 310px; 
+    width: 100%;
+}
+
+.word20 {
+    /* 田园女权 */
+    font-family: 'Noto Serif SC';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 120px;
+    line-height: 402px;
+    letter-spacing: -0.05em;
+    
+    color: #871E1E;
+    position: absolute;
+    left: 1500px;
+    top: 345px; 
+    width: 100%;
+}
+
+.word21 {
+    /* 女司机 */
+    font-family: 'Noto Serif SC';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 402px;
+    letter-spacing: -0.05em;
+    
+    color: #871E1E;
+    position: absolute;
+    left: 2295px;
+    top: -55px; 
+    width: 100%;
+}
+
+.word22 {
+    /* 女玩家 */
+    font-family: 'Noto Serif SC';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 150px;
+    line-height: 402px;
+    letter-spacing: -0.05em;
+    
+    color: #871E1E;
+    position: absolute;
+    left: 4435px;
+    top: 340px; 
+    width: 100%;
+}
+
+.word23 {
+    /* 母老虎 */ 
+    font-family: 'Noto Serif SC';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 150px;
+    line-height: 402px;
+    letter-spacing: -0.05em;
+    
+    color: #871E1E;
+    position: absolute;
+    left: 2945px;
+    top: -80px; 
+    width: 100%;
+}
+
+.word24 {
+    /* 狐狸精 */
+    font-family: 'Noto Serif SC';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 130px;
+    line-height: 402px;
+    letter-spacing: -0.05em;
+    
+    color: #871E1E;
+    position: absolute;
+    left: 2540px;
+    top: 145px; 
+    width: 100%;
+}
+
+.word25 {
+    /* 小三 */
+    font-family: 'Noto Serif SC';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 200px;
+    line-height: 402px;
+    letter-spacing: -0.05em;
+    
+    color: #871E1E;
+    position: absolute;
+    left: 2565px;
+    top: -25px; 
+    width: 100%;
+}
+
+.word26 {
+    /* 整容脸 */
+    font-family: 'Noto Serif SC';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 125px;
+    line-height: 402px;
+    letter-spacing: -0.05em;
+    
+    color: #871E1E;
+    position: absolute;
+    left: 3515px;
+    top: -60px; 
+    width: 100%;
+
+}
+
+.word27 {
+    /* 贱货 */ 
+    font-family: 'Noto Serif SC';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 402px;
+    letter-spacing: -0.05em;
+    
+    color: #871E1E;
+    position: absolute;
+    left: 2920px;
+    top: 110px; 
+    width: 100%;
+}
+
+.word28 {
+    /* 鸡巴套子 */
+    font-family: 'Noto Serif SC';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 402px;
+    letter-spacing: -0.05em;
+    
+    color: #871E1E;
+    position: absolute;
+    left: 3050px;
+    top: 320px; 
+    width: 100%;
+}
+
+.word29 {
+    /* 贱批 */
+    font-family: 'Noto Serif SC';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 145px;
+    line-height: 402px;
+    letter-spacing: -0.05em;
+    
+    color: #871E1E;
+    position: absolute;
+    left: 3925px;
+    top: 220px; 
+    width: 100%;
+}
+
+.word30 {
+    /* 母夜叉 */
+    font-family: 'Noto Serif SC';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 402px;
+    letter-spacing: -0.05em;
+    
+    color: #871E1E;
+    position: absolute;
+    left: 3895px;
+    top: 90px; 
+    width: 100%;
+}
+
+.word31 {
+    /* 操你妈 */ 
+    font-family: 'Noto Serif SC';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 280px;
+    line-height: 402px;
+    letter-spacing: -0.05em;
+    
+    color: #871E1E;
+    position: absolute;
+    left: 3115px;
+    top: 130px; 
+    width: 100%;
+}
+
+.word32 {
+    /* 干你娘 */
+    font-family: 'Noto Serif SC';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 220px;
+    line-height: 402px;
+    letter-spacing: -0.05em;
+    
+    color: #871E1E;
+    position: absolute;
+    left: 4470px;
+    top: 155px; 
+    width: 100%;
+}
+
+.word33 {
+    /* 老处女 */
+    font-family: 'Noto Serif SC';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 120px;
+    line-height: 402px;
+    letter-spacing: -0.05em;
+    
+    color: #871E1E;
+    position: absolute;
+    left: 4400px;
+    top: -10px; 
+    width: 100%;
+}
+
+.word34 {
+    /* 奸 */
+    font-family: 'Noto Serif SC';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 280px;
+    line-height: 402px;
+    letter-spacing: -0.05em;
+    
+    color: #871E1E;
+    position: absolute;
+    left: 4205px;
+    top: 220px; 
+    width: 100%;
+}
+
+.word35 {
+    /* 妈卖批 */
+    font-family: 'Noto Serif SC';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 150px;
+    line-height: 402px;
+    letter-spacing: -0.05em;
+        
+    color: #871E1E;
+    position: absolute;
+    left: 4755px;
+    top: -30px; 
+    width: 100%;
+}
+
+.word36 {
+    /* 姨 */
+    font-family: 'Noto Serif SC';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 250px;
+    line-height: 402px;
+    letter-spacing: -0.05em;
+    
+    color: #871E1E;
+    position: absolute;
+    left: 5110px;
+    top: 275px; 
+    width: 100%;
+}
+
+.word37 {
+    /* 娘 */
+    font-family: 'Noto Serif SC';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 220px;
+    line-height: 402px;
+    letter-spacing: -0.05em;
+    
+    color: #871E1E;
+    position: absolute;
+    left: 5270px;
+    top: -45px; 
+    width: 100%;
+}
+
+.word38 {
+    /* 小太妹 */
+    font-family: 'Noto Serif SC';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 150px;
+    letter-spacing: -0.05em;
+    
+    color: #871E1E;
+    position: absolute;
+    left: 5380px;
+    top: 230px; 
+    width: 480px;
+}
+
+.word39 {
+    /* 小仙女 */
+    font-family: 'Noto Serif SC';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 180px;
+    line-height: 402px;
+    letter-spacing: -0.05em;
+    
+    color: #871E1E;
+    position: absolute;
+    left: 3880px;
+    top: -60px; 
+    width: 100%;
+}
+
+.word40 {
+    /* 福利姬 */
+        font-family: 'Noto Serif SC';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 120px;
+        line-height: 402px;
+        letter-spacing: -0.05em;
+        
+        color: #871E1E;
+        position: absolute;
+        left: 3355px;
+        top: 340px; 
+        width: 100%;
+}
+
+.word41 {
+    /* 小公主 */
+    font-family: 'Noto Serif SC';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 100px;
+    letter-spacing: -0.05em;
+    
+    color: #871E1E;
+    position: absolute;
+    left: 5100px;
+    top: 235px; 
+    width: 300px;
+    height: 150px;
+}
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+    #data-output {
+        color: #871E1E;
+        font-family: 'Noto Serif SC', serif;
+        font-weight: 900;
+        position: absolute;
+        top: 100px;
+        left: 35px;
+        border: 1px solid transparent;
+        width: 800px;
+    }
+
+}
+
+
+@media screen and ( min-height: 900px ) { 
+    #data-output {
+        color: #871E1E;
+        font-family: 'Noto Serif SC', serif;
+        font-weight: 900;
+        position: absolute;
+        top: 110px;
+        left: 210px;
+        border: 1px solid transparent;
+        width: 800px;
+        transform: scale(1.2);
+    }
+    .about {
+
+        font-family: 'Noto Sans SC';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        text-transform: uppercase;
+        border: 2.5px solid transparent;
+        color: #871E1E;
+        width: 95px;
+        position: fixed;
+        right: 300px;
+        top: 20px;
+        padding-left: 12px;
+        padding-bottom: 3px;
+    }
+    
+    .about:hover {
+        border: 2.5px solid #871E1E;
+        border-radius: 50px;
+    }
+    
+    .index {
+        font-family: 'Noto Sans SC';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        text-transform: uppercase;
+        border: 2.5px solid transparent;
+        color: #871E1E;
+        width: 85px;
+        position: fixed;
+        right: 160px;
+        top: 20px;
+        padding-left: 12px;
+        padding-bottom: 3px;
+    }
+    
+    .index:hover {
+    }
+    
+    .language {
+        font-family: 'Noto Sans SC';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 36px;
+        text-transform: uppercase;
+        border: 2.5px solid #871E1E;
+        border-radius: 50px;
+        color: #871E1E;
+        width: 60px;
+        height: 30px;
+        position: fixed;
+        right: 30px;
+        top: 20px;
+        padding-left: 19px;
+        padding-top: 1.5px;
+        padding-bottom: 8px;
+    }
+ }

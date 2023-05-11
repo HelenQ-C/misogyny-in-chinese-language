@@ -1,0 +1,134 @@
+body  {
+    overflow-x: hidden;
+}
+
+.menu {
+    position: fixed;
+    top: -10px;
+    height: 125px;
+    width: 105%;
+    left: -10px;
+    background-color: white;
+    z-index: 1;
+}
+
+.maintitle {
+font-family: 'Noto Sans SC';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 53px;
+text-transform: uppercase;
+
+color: #871E1E;
+position: fixed;
+top: 20px;
+left: 30px;
+z-index: 2;
+}
+
+.subtitle {
+    font-family: 'Noto Sans SC';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17.5px;
+    line-height: 53px;
+    text-transform: uppercase;
+    
+    color: #871E1E;
+    position: fixed;
+    top: 50px;
+    left: 30px;
+    z-index: 2;
+}
+
+.about {
+
+    font-family: 'Noto Sans SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: uppercase;
+    border: 2.5px solid #871E1E;
+    border-radius: 50px;
+    color: #871E1E;
+    width: 95px;
+    position: fixed;
+    right: 300px;
+    top: 20px;
+    padding-left: 12px;
+    padding-bottom: 3px;
+    z-index: 2;
+}
+
+.about:hover {
+    border: 2.5px solid #871E1E;
+    border-radius: 50px;
+}
+
+.index {
+    font-family: 'Noto Sans SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: uppercase;
+    border: 2.5px solid transparent;
+    border-radius: 50px;
+    color: #871E1E;
+    width: 85px;
+    position: fixed;
+    right: 160px;
+    top: 20px;
+    padding-left: 12px;
+    padding-bottom: 3px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.index:hover {
+    border: 2.5px solid #871E1E;
+    border-radius: 50px;
+}
+
+.language {
+    font-family: 'Noto Sans SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    text-transform: uppercase;
+    border: 2.5px solid #871E1E;
+    border-radius: 50px;
+    color: #871E1E;
+    width: 60px;
+    height: 30px;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    padding-left: 19px;
+    padding-top: 1.5px;
+    padding-bottom: 8px;
+    z-index: 2;
+}
+
+a:link { 
+    text-decoration: none; 
+    color: #871E1E;
+
+}
+a:visited { 
+    text-decoration: none; color: #871E1E;
+}
+a:hover { text-decoration: none; }
+
+.content-container {
+    position: absolute;
+    top: 30%;
+    left: 30px;
+    width: 50%;
+    font-family: 'Noto Sans SC';
+    font-style: normal;
+    color: #871E1E;
+}

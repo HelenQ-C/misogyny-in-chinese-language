@@ -1,0 +1,1745 @@
+body  {
+    overflow-x: hidden;
+}
+
+.menu {
+    position: fixed;
+    top: -10px;
+    height: 125px;
+    width: 105%;
+    left: -10px;
+    background-color: white;
+    z-index: 1;
+}
+
+.maintitle {
+font-family: 'Noto Sans SC';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 53px;
+text-transform: uppercase;
+
+color: #871E1E;
+position: fixed;
+top: 20px;
+left: 30px;
+z-index: 2;
+}
+
+.subtitle {
+    font-family: 'Noto Sans SC';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17.5px;
+    line-height: 53px;
+    text-transform: uppercase;
+    
+    color: #871E1E;
+    position: fixed;
+    top: 50px;
+    left: 30px;
+    z-index: 2;
+}
+
+.about {
+
+    font-family: 'Noto Sans SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: uppercase;
+    border: 2.5px solid transparent;
+    color: #871E1E;
+    width: 95px;
+    position: fixed;
+    right: 300px;
+    top: 20px;
+    padding-left: 12px;
+    padding-bottom: 3px;
+    z-index: 2;
+}
+
+.about:hover {
+    border: 2.5px solid #871E1E;
+    border-radius: 50px;
+}
+
+.index {
+    font-family: 'Noto Sans SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: uppercase;
+    border: 2.5px solid #871E1E;
+    border-radius: 50px;
+    color: #871E1E;
+    width: 85px;
+    position: fixed;
+    right: 160px;
+    top: 20px;
+    padding-left: 12px;
+    padding-bottom: 3px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.index:hover {
+    border: 2.5px solid #871E1E;
+    border-radius: 50px;
+}
+
+.language {
+    font-family: 'Noto Sans SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    text-transform: uppercase;
+    border: 2.5px solid #871E1E;
+    border-radius: 50px;
+    color: #871E1E;
+    width: 60px;
+    height: 30px;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    padding-left: 19px;
+    padding-top: 1.5px;
+    padding-bottom: 8px;
+    z-index: 2;
+}
+
+a:link { 
+    text-decoration: none; 
+    color: #871E1E;
+
+}
+a:visited { 
+    text-decoration: none; color: #871E1E;
+}
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+#grid-container {
+    color: #871E1E;
+    position: absolute;
+    top: 225px;
+    left: 35px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Two columns with equal width */    
+    grid-template-rows: 50px ;
+    grid-template-columns: 100px 275px 225px 210px auto;
+    width: 75%;
+}
+
+
+.word {
+    font-family: 'Noto Serif SC';
+    font-size: 24px;
+    border-top: 1px solid #871E1E;
+    grid-column: 1;
+    padding-top: 8px; 
+    padding-bottom: 175px; 
+}
+
+.mean {
+    font-family: 'Noto Sans SC';
+    font-size: 14px;
+    grid-column: 2; 
+    padding-left: 20px;
+    padding-right: 40px;
+    padding-top: 11px; 
+    padding-bottom: 18px; 
+    border-top: 1px solid #871E1E;
+    grid-column: 2;
+}
+
+.trans {
+    font-family: 'Noto Sans SC';
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 40px;
+    grid-column: 2;
+
+}
+
+.origin {
+    font-family: 'Noto Sans SC';
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top: 1px solid #871E1E;
+    grid-column: 3;
+    padding-top: 11px; 
+}
+
+.fem {
+    font-family: 'Noto Sans SC';
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 80px;
+    border-top: 1px solid #871E1E;
+    grid-column: 4;
+    padding-top: 11px; 
+}
+
+.type {
+    font-family: 'Noto Sans SC';
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top: 1px solid #871E1E;
+    grid-column: 5;
+    padding-top: 11px; 
+}
+
+.originen {
+    font-family: 'Noto Sans SC';
+    font-size: 14px;   
+    padding-left: 20px;
+    padding-right: 20px;
+    grid-column: 3;
+}
+
+.word1 {
+    grid-column: 1;
+    grid-row: 1 / 3;
+
+}
+
+.mean1 {
+    grid-column: 2; 
+    grid-row: 1;  
+
+}
+
+.trans1 {
+    grid-row: 2;   
+    grid-column: 2; 
+}
+
+.origin1 {
+    grid-column: 3;   
+    grid-row: 1;     
+}
+
+.originen1 {
+    grid-column: 3;   
+    grid-row: 2;  
+}
+
+.fem1 {
+    grid-column: 4;   
+    grid-row: 1;       
+}
+
+.type1 {
+    grid-column: 5;   
+    grid-row: 1;      
+}
+
+.word2 {
+    grid-column: 1;
+    grid-row: 3 / 6;
+}
+
+.mean2 {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.trans2 {
+    grid-row: 4;     
+}
+
+.origin2 {
+    grid-row: 3;   
+}
+
+.originen2 {
+    grid-row: 4;  
+}
+
+
+.fem2 {
+    grid-row: 3;   
+}
+
+.type2 {
+    grid-row: 3;   
+}
+
+.word3 {
+    grid-row: 6 / 9;
+}
+
+.mean3 {
+    grid-row: 6;
+}
+
+.trans3 {
+    grid-row: 7;     
+}
+
+.origin3 {
+    grid-row: 6;   
+}
+
+.originen3 {
+    grid-row: 7;  
+}
+
+
+.fem3 {
+    grid-row: 6;   
+}
+
+.type3 {
+    grid-row: 6;   
+}
+
+.word4 {
+    grid-row: 9 / 12;
+}
+
+.mean4 {
+    grid-row: 9;
+}
+
+.trans4 {
+    grid-row: 10;     
+}
+
+.origin4 {
+    grid-row: 9;   
+}
+
+.originen4 {
+    grid-row: 10;  
+}
+
+
+.fem4 {
+    grid-row: 9;   
+}
+
+.type4 {
+    grid-row: 9;   
+}
+
+.word5 {
+    grid-row: 12 / 15;
+}
+
+.mean5 {
+    grid-row: 12;
+}
+
+.trans5 {
+    grid-row: 13;     
+}
+
+.origin5 {
+    grid-row: 12;   
+}
+
+.originen5 {
+    grid-row: 13;  
+}
+
+
+.fem5 {
+    grid-row: 12;   
+}
+
+.type5 {
+    grid-row: 12;   
+}
+
+.word6 {
+    grid-row: 15 / 18;
+}
+
+.mean6 {
+    grid-row: 15;
+}
+
+.trans6 {
+    grid-row: 16;     
+}
+
+.origin6 {
+    grid-row: 15;   
+}
+
+.originen6 {
+    grid-row: 16;  
+}
+
+
+.fem6 {
+    grid-row: 15;   
+}
+
+.type6 {
+    grid-row: 15;   
+}
+
+.word7 {
+    grid-row: 18 / 21;
+}
+
+.mean7 {
+    grid-row: 18;
+}
+
+.trans7 {
+    grid-row: 19;     
+}
+
+.origin7 {
+    grid-row: 18;   
+}
+
+.originen7 {
+    grid-row: 19;  
+}
+
+
+.fem7 {
+    grid-row: 18;   
+}
+
+.type7 {
+    grid-row: 18;   
+}
+
+.word8 {
+    grid-row: 21 / 24;
+}
+
+.mean8 {
+    grid-row: 21;
+}
+
+.trans8 {
+    grid-row: 22;     
+}
+
+.origin8 {
+    grid-row: 21;   
+}
+
+.originen8 {
+    grid-row: 22;  
+}
+
+.fem8 {
+    grid-row: 21;   
+}
+
+.type8 {
+    grid-row: 21;   
+}
+
+.word9 {
+    grid-row: 24 / 27;
+}
+
+.mean9 {
+    grid-row: 24;
+}
+
+.trans9 {
+    grid-row: 25;     
+}
+
+.origin9 {
+    grid-row: 24;   
+}
+
+.originen9 {
+    grid-row: 25;  
+}
+
+
+.fem9 {
+    grid-row: 24;   
+}
+
+.type9 {
+    grid-row: 24;   
+}
+
+.word10 {
+    grid-row: 27 / 30;
+}
+
+.mean10 {
+    grid-row: 27;
+}
+
+.trans10 {
+    grid-row: 28;     
+}
+
+.origin10 {
+    grid-row: 27;   
+}
+
+.originen10 {
+    grid-row: 28;  
+}
+
+
+.fem10 {
+    grid-row: 27;   
+}
+
+.type10 {
+    grid-row: 27;   
+}
+
+.word11 {
+    grid-row: 30 / 33;
+}
+
+.mean11 {
+    grid-row: 30;
+}
+
+.trans11 {
+    grid-row: 31;     
+}
+
+.origin11 {
+    grid-row: 30;   
+}
+
+.originen11 {
+    grid-row: 31;  
+}
+
+
+.fem11 {
+    grid-row: 30;   
+}
+
+.type11 {
+    grid-row: 30;   
+}
+
+.word12 {
+    grid-row: 33 / 36;
+}
+
+.mean12 {
+    grid-row: 33;
+}
+
+.trans12 {
+    grid-row: 34;     
+}
+
+.origin12 {
+    grid-row: 33;   
+}
+
+.originen12 {
+    grid-row: 34;  
+}
+
+.fem12 {
+    grid-row: 33;   
+}
+
+.type12 {
+    grid-row: 33;   
+}
+
+.word13 {
+    grid-row: 36 / 39;
+}
+
+.mean13 {
+    grid-row: 36;
+}
+
+.trans13 {
+    grid-row: 37;     
+}
+
+.origin13 {
+    grid-row: 36;   
+}
+
+.originen13 {
+    grid-row: 37;  
+}
+
+
+.fem13 {
+    grid-row: 36;   
+}
+
+.type13 {
+    grid-row: 36;   
+}
+
+.word14 {
+    grid-row: 39 / 42;
+}
+
+.mean14 {
+    grid-row: 39;
+}
+
+.trans14 {
+    grid-row: 40;     
+}
+
+.origin14 {
+    grid-row: 39;   
+}
+
+.originen14 {
+    grid-row: 40;  
+}
+
+.fem14 {
+    grid-row: 39;   
+}
+
+.type14 {
+    grid-row: 39;   
+}
+
+.word15 {
+    grid-row: 42 / 45;
+}
+
+.mean15 {
+    grid-row: 42;
+}
+
+.trans15 {
+    grid-row: 43;     
+}
+
+.origin15 {
+    grid-row: 42;   
+}
+
+.originen15 {
+    grid-row: 43;  
+}
+
+.fem15 {
+    grid-row: 42;   
+}
+
+.type15 {
+    grid-row: 42;   
+}
+
+.word16 {
+    grid-row: 45 / 48;
+}
+
+.mean16 {
+    grid-row: 45;
+}
+
+.trans16 {
+    grid-row: 46;     
+}
+
+.origin16 {
+    grid-row: 45;   
+}
+
+.originen16 {
+    grid-row: 46;  
+}
+
+.fem16 {
+    grid-row: 45;   
+}
+
+.type16 {
+    grid-row: 45;   
+}
+
+.word17 {
+    grid-row: 48 / 51;
+}
+
+.mean17 {
+    grid-row: 48;
+}
+
+.trans17 {
+    grid-row: 49;     
+}
+
+.origin17 {
+    grid-row: 48;   
+}
+
+.originen17 {
+    grid-row: 49;  
+}
+
+.fem17 {
+    grid-row: 48;   
+}
+
+.type17 {
+    grid-row: 48;   
+}
+
+.word18 {
+    grid-row: 51 / 54;
+}
+
+.mean18 {
+    grid-row: 51;
+}
+
+.trans18 {
+    grid-row: 52;     
+}
+
+.origin18 {
+    grid-row: 51;   
+}
+
+.originen18 {
+    grid-row: 52;  
+}
+
+.fem18 {
+    grid-row: 51;   
+}
+
+.type18 {
+    grid-row: 51;   
+}
+
+.word19 {
+    grid-row: 54 / 57;
+}
+
+.mean19 {
+    grid-row: 54;
+}
+
+.trans19 {
+    grid-row: 55;     
+}
+
+.origin19 {
+    grid-row: 54;   
+}
+
+.originen19 {
+    grid-row: 55;  
+}
+
+.fem19 {
+    grid-row: 54;   
+}
+
+.type19 {
+    grid-row: 54;   
+}
+
+.word20 {
+    grid-row: 57 / 60;
+}
+
+.mean20 {
+    grid-row: 57;
+}
+
+.trans20 {
+    grid-row: 58;     
+}
+
+.origin20 {
+    grid-row: 57;   
+}
+
+.originen20 {
+    grid-row: 58;  
+}
+
+.fem20 {
+    grid-row: 57;   
+}
+
+.type20 {
+    grid-row: 57;   
+}
+
+.word21 {
+    grid-row: 60 / 63;
+}
+
+.mean21 {
+    grid-row: 60;
+}
+
+.trans21 {
+    grid-row: 61;     
+}
+
+.origin21 {
+    grid-row: 60;   
+}
+
+.originen21 {
+    grid-row: 61;  
+}
+
+.fem21 {
+    grid-row: 60;   
+}
+
+.type21 {
+    grid-row: 60;   
+}
+
+.word22 {
+    grid-row: 63 / 66;
+}
+
+.mean22 {
+    grid-row: 63;
+}
+
+.trans22 {
+    grid-row: 64;     
+}
+
+.origin22 {
+    grid-row: 63;   
+}
+
+.originen22 {
+    grid-row: 64;  
+}
+
+.fem22 {
+    grid-row: 63;   
+}
+
+.type22 {
+    grid-row: 63;   
+}
+
+.word23{
+    grid-row: 66 / 69;
+}
+
+.mean23 {
+    grid-row: 66;
+}
+
+.trans23 {
+    grid-row: 67;     
+}
+
+.origin23 {
+    grid-row: 66;   
+}
+
+.originen23 {
+    grid-row: 67;  
+}
+
+.fem23 {
+    grid-row: 66;   
+}
+
+.type23 {
+    grid-row: 66;   
+}
+
+.word24{
+    grid-row: 69 / 72;
+}
+
+.mean24 {
+    grid-row: 69;
+}
+
+.trans24 {
+    grid-row: 70;     
+}
+
+.origin24 {
+    grid-row: 69;   
+}
+
+.originen24 {
+    grid-row: 70;  
+}
+
+.fem24 {
+    grid-row: 69;   
+}
+
+.type24 {
+    grid-row: 69;   
+}
+
+.word25{
+    grid-row: 120 / 123;
+}
+
+.mean25 {
+    grid-row: 120;
+}
+
+.trans25 {
+    grid-row: 121;     
+}
+
+.origin25 {
+    grid-row: 120;   
+}
+
+.originen25 {
+    grid-row: 121;  
+}
+
+.fem25 {
+    grid-row: 120;   
+}
+
+.type25 {
+    grid-row: 120;   
+}
+
+.word26 {
+    grid-row: 72 / 75;
+}
+
+.mean26 {
+    grid-row: 72;
+}
+
+.trans26 {
+    grid-row: 73;     
+}
+
+.origin26 {
+    grid-row: 72;   
+}
+
+.originen26 {
+    grid-row: 73;  
+}
+
+.fem26 {
+    grid-row: 72;   
+}
+
+.type26 {
+    grid-row: 72;   
+}
+
+.word27 {
+    grid-row: 75 / 78;
+}
+
+.mean27 {
+    grid-row: 75;
+}
+
+.trans27 {
+    grid-row: 76;     
+}
+
+.origin27 {
+    grid-row: 75;   
+}
+
+.originen27 {
+    grid-row: 76;  
+}
+
+.fem27 {
+    grid-row: 75;   
+}
+
+.type27 {
+    grid-row: 75;   
+}
+
+.word28 {
+    grid-row: 78 / 81;
+}
+
+.mean28 {
+    grid-row: 78;
+}
+
+.trans28 {
+    grid-row: 79;     
+}
+
+.origin28 {
+    grid-row: 78;   
+}
+
+.originen28 {
+    grid-row: 79;  
+}
+
+.fem28 {
+    grid-row: 78;   
+}
+
+.type28 {
+    grid-row: 78;   
+}
+
+.word29 {
+    grid-row: 81 / 84;
+}
+
+.mean29 {
+    grid-row: 81;
+}
+
+.trans29 {
+    grid-row: 82;     
+}
+
+.origin29 {
+    grid-row: 81;   
+}
+
+.originen29 {
+    grid-row: 82;  
+}
+
+.fem29 {
+    grid-row: 81;   
+}
+
+.type29 {
+    grid-row: 81;   
+}
+
+.word30 {
+    grid-row: 84 / 87;
+}
+
+.mean30 {
+    grid-row: 84;
+}
+
+.trans30 {
+    grid-row: 85;     
+}
+
+.origin30 {
+    grid-row: 84;   
+}
+
+.originen30 {
+    grid-row: 85;  
+}
+
+.fem30 {
+    grid-row: 84;   
+}
+
+.type30 {
+    grid-row: 84;   
+}
+
+.word31 {
+    grid-row: 87 / 90;
+}
+
+.mean31 {
+    grid-row: 87;
+}
+
+.trans31 {
+    grid-row: 88;     
+}
+
+.origin31 {
+    grid-row: 87;   
+}
+
+.originen31 {
+    grid-row: 88;  
+}
+
+.fem31 {
+    grid-row: 87;   
+}
+
+.type31 {
+    grid-row: 87;   
+}
+
+.word32 {
+    grid-row: 90 / 93;
+}
+
+.mean32 {
+    grid-row: 90;
+}
+
+.trans32 {
+    grid-row: 91;     
+}
+
+.origin32 {
+    grid-row: 90;   
+}
+
+.originen32 {
+    grid-row: 91;  
+}
+
+.fem32 {
+    grid-row: 90;   
+}
+
+.type32 {
+    grid-row: 90;   
+}
+
+.word33 {
+    grid-row: 93 / 96;
+}
+
+.mean33 {
+    grid-row: 93;
+}
+
+.trans33 {
+    grid-row: 94;     
+}
+
+.origin33 {
+    grid-row: 93;   
+}
+
+.originen33 {
+    grid-row: 94;  
+}
+
+.fem33 {
+    grid-row: 93;   
+}
+
+.type33 {
+    grid-row: 93;   
+}
+
+.word34 {
+    grid-row: 96 / 99;
+}
+
+.mean34 {
+    grid-row: 96;
+}
+
+.trans34 {
+    grid-row: 97;     
+}
+
+.origin34 {
+    grid-row: 96;   
+}
+
+.originen34 {
+    grid-row: 97;  
+}
+
+.fem34 {
+    grid-row: 96;   
+}
+
+.type34 {
+    grid-row: 96;   
+}
+
+.word35 {
+    grid-row: 99 / 102;
+}
+
+.mean35 {
+    grid-row: 99;
+}
+
+.trans35 {
+    grid-row: 100;     
+}
+
+.origin35 {
+    grid-row: 99;   
+}
+
+.originen35 {
+    grid-row: 100;  
+}
+
+.fem35 {
+    grid-row: 99;   
+}
+
+.type35 {
+    grid-row: 99;   
+}
+
+.word36 {
+    grid-row: 102 / 105;
+}
+
+.mean36 {
+    grid-row: 102;
+}
+
+.trans36 {
+    grid-row: 103;     
+}
+
+.origin36 {
+    grid-row: 102;   
+}
+
+.originen36 {
+    grid-row: 103;  
+}
+
+.fem36 {
+    grid-row: 102;   
+}
+
+.type36 {
+    grid-row: 102;   
+}
+
+.word37 {
+    grid-row: 105 / 108;
+}
+
+.mean37 {
+    grid-row: 105;
+}
+
+.trans37 {
+    grid-row: 106;     
+}
+
+.origin37 {
+    grid-row: 105;   
+}
+
+.originen37 {
+    grid-row: 106;  
+}
+
+.fem37 {
+    grid-row: 105;   
+}
+
+.type37 {
+    grid-row: 105;   
+}
+
+.word38 {
+    grid-row: 108 / 111;
+}
+
+.mean38 {
+    grid-row: 108;
+}
+
+.trans38 {
+    grid-row: 109;     
+}
+
+.origin38 {
+    grid-row: 108;   
+}
+
+.originen38 {
+    grid-row: 109;  
+}
+
+.fem38 {
+    grid-row: 108;   
+}
+
+.type38 {
+    grid-row: 108;   
+}
+
+.word39 {
+    grid-row: 111 / 114;
+}
+
+.mean39 {
+    grid-row: 111;
+}
+
+.trans39 {
+    grid-row: 112;     
+}
+
+.origin39 {
+    grid-row: 111;   
+}
+
+.originen39 {
+    grid-row: 112;  
+}
+
+.fem39 {
+    grid-row: 111;   
+}
+
+.type39 {
+    grid-row: 111;   
+}
+
+.word40 {
+    grid-row: 114 / 117;
+}
+
+.mean40 {
+    grid-row: 114;
+}
+
+.trans40 {
+    grid-row: 115;     
+}
+
+.origin40 {
+    grid-row: 114;   
+}
+
+.originen40 {
+    grid-row: 115;  
+}
+
+.fem40 {
+    grid-row: 114;   
+}
+
+.type40 {
+    grid-row: 114;   
+}
+
+.word41 {
+    grid-row: 117 / 120;
+}
+
+.mean41 {
+    grid-row: 117;
+}
+
+.trans41 {
+    grid-row: 118;     
+}
+
+.origin41 {
+    grid-row: 117;   
+}
+
+.originen41 {
+    grid-row: 118;  
+}
+
+.fem41 {
+    grid-row: 117;   
+}
+
+.type41 {
+    grid-row: 117;   
+}
+
+.button-container {
+    position: fixed;
+    right: 0px;
+    height: 700px;
+    width: 200px;
+}
+
+#filter-all {
+    font-family: 'Noto Sans SC';
+    font-size: 14px;
+    font-weight: 700;
+    color: #871E1E;
+    position: fixed;
+    top: 175px;
+    right: 30px;
+    width: 125px;
+    border: none;
+    background-color: transparent;
+}
+
+#filter-imposed {
+    font-family: 'Noto Sans SC';
+    font-size: 14px;
+    color: #871E1E;
+    position: fixed;
+    right: 30px;
+    top: 300px;
+    width: 125px;
+    border: none;
+    background-color: transparent;
+}
+
+#filter-imposed:hover {
+    font-weight: 700;
+}
+
+#filter-fem {
+    font-family: 'Noto Sans SC';
+    font-size: 14px;
+    color: #871E1E;
+    position: fixed;
+    right: 25px;
+    top: 375px;
+    width: 140px;
+    border: none;
+    background-color: transparent;
+}
+
+#filter-fem:hover {
+    font-weight: 700;
+}
+
+#filter-humi {
+    font-family: 'Noto Sans SC';
+    font-size: 14px;
+    color: #871E1E;
+    position: fixed;
+    width: 125px;
+    right: 30px;
+    top: 225px;
+    border: none;
+    background-color: transparent;
+}
+
+#filter-humi:hover {
+    font-weight: 700;
+}
+
+
+#count {
+    font-family: 'Noto Sans SC';
+    font-size: 12px;
+    font-weight: 700;
+    color: #871E1E;
+    position: fixed;
+    width: 125px;
+    right: 30px;
+    bottom: 10px;
+    border: none;
+    background-color: transparent;
+}
+
+.columnlead {
+    font-family: 'Noto Sans SC';
+    font-size: 12px;
+    color: #871E1E;
+    position: absolute;
+    top: 200px;
+    width: 900px;
+    left: 35px;
+}
+
+.column1 {
+    display: inline-block;
+    width: 125px;
+}
+
+.column2 {
+    display: inline-block;
+    width: 265px;
+    
+}
+
+.column3 {
+    display: inline-block;
+    width: 225px;
+}
+
+.column4 {
+    display: inline-block;
+    width: 200px;
+}
+
+.column5 {
+    display: inline-block;
+    width: 30px;
+}
+
+#phone-grid {
+    display: none;
+}
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+
+    #grid-container {
+        display: none;
+    }
+
+    #phone-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: auto;
+        width: 80%;
+        position: absolute;
+        top: 375px;
+        left: 30px;
+        border-top: 1px solid #871E1E;
+    }
+
+    .columnlead {
+        display: none;
+    }
+
+    .head {
+        border-top: 1px solid #871E1E;
+        grid-column: 1;
+    }
+
+    .button-container {
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    height: auto;
+    width: 100%;
+}
+
+#filter-all {
+    font-family: 'Noto Sans SC';
+    font-size: 20px;
+    font-weight: 700;
+    color: #871E1E;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    width: 125px;
+    border: 2px solid #871E1E;
+    border-radius: 50px;
+    background-color: transparent;
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+
+#filter-imposed {
+    font-family: 'Noto Sans SC';
+    font-size: 14px;
+    color: #871E1E;
+    position: absolute;
+    top: 55px;
+    left: 20px;
+    width: 215px;
+    border: 2px solid #871E1E;
+    border-radius: 50px;
+    background-color: transparent;
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    line-height: 1;
+}
+
+#filter-imposed:hover {
+    font-weight: 700;
+}
+
+#filter-fem {
+    font-family: 'Noto Sans SC';
+    font-size: 14px;
+    color: #871E1E;
+    position: absolute;
+    left: 20px;
+    top: 109px;
+    width: 215px;
+    border: 2px solid #871E1E;
+    border-radius: 50px;
+    background-color: transparent;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-right: 12px;
+    padding-left: 12px;
+    line-height: 1;
+}
+
+#filter-fem:hover {
+    font-weight: 700;
+}
+
+#filter-humi {
+    font-family: 'Noto Sans SC';
+    font-size: 14px;
+    color: #871E1E;
+    position: absolute;
+    width: 215px;
+    left: 148px;
+    top: 0px;
+    border: 2px solid #871E1E;
+    border-radius: 50px;
+    background-color: transparent;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-right: 12px;
+    padding-left: 12px;
+    line-height: 1;
+}
+
+#filter-humi:hover {
+    font-weight: 700;
+}
+
+.head1 {
+    font-family: 'Noto Sans SC';
+    font-size: 14px;
+    color: #871E1E;
+    margin-bottom: 8px;
+}
+
+.head2 {
+    font-family: 'Noto Sans SC';
+    font-size: 14px;
+    color: #871E1E;
+    margin-bottom: 8px;
+}
+
+.head3 {
+    font-family: 'Noto Sans SC';
+    font-size: 14px;
+    color: #871E1E;
+    margin-bottom: 8px;
+}
+
+.head4 {
+    font-family: 'Noto Sans SC';
+    font-size: 14px;
+    color: #871E1E;
+    margin-bottom: 8px;
+}
+
+.wordp {
+    font-size: 36px;
+}
+
+.meaningp {
+    font-family: 'Noto Sans SC';
+    font-size: 20px;
+    color: #871E1E;
+    line-height: 1;
+}
+
+.transp {
+    font-family: 'Noto Sans SC';
+    font-size: 20px;
+    color: #871E1E;
+    line-height: 1;
+}
+
+.originp {
+    font-family: 'Noto Sans SC';
+    font-size: 20px;
+    color: #871E1E;
+    line-height: 1;
+}
+
+.originenp {
+    font-family: 'Noto Sans SC';
+    font-size: 20px;
+    color: #871E1E;
+    line-height: 1;
+}
+
+.femp {
+    font-family: 'Noto Sans SC';
+    font-size: 20px;
+    color: #871E1E;
+    line-height: 1;
+}
+
+.typep {
+    font-family: 'Noto Sans SC';
+    font-size: 20px;
+    color: #871E1E;
+    line-height: 1;
+}
+
+.about {
+    display: none;
+}
+
+
+.language {
+    display: none;
+}
+
+.index {
+    font-family: 'Noto Sans SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: uppercase;
+    border: 2.5px solid #871E1E;
+    border-radius: 50px;
+    color: #871E1E;
+    width: 85px;
+    position: fixed;
+    right: 20px;
+    top: 25px;
+    padding-left: 12px;
+    padding-bottom: 3px;
+    cursor: pointer;
+}
+
+.maintitle {
+    font-family: 'Noto Sans SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+    
+    color: #871E1E;
+    position: fixed;
+    top: 15px;
+    left: 25px;
+    }
+
+    #count {
+        font-family: 'Noto Sans SC';
+        font-size: 14px;
+        color: #871E1E;
+        position: absolute;
+        width: 200px;
+        left: 30px;
+        top: 200px;
+        border: none;
+        background-color: transparent;
+    }
+
+}

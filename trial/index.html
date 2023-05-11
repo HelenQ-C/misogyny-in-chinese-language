@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		#myDiv {
+			background-color: #f1f1f1;
+			padding: 20px;
+			text-align: center;
+			font-size: 16px; /* Default font size */
+		}
+	</style>
+</head>
+<body onload="adjustFontSize()">
+	<div id="myDiv">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec enim vel massa faucibus lacinia. Duis suscipit semper purus, sit amet pulvinar quam malesuada sit amet.</p>
+		<p>Nulla et nisl quis justo vestibulum lobortis. Etiam vel ultricies mauris, non volutpat libero. Aenean vel laoreet lorem, non commodo sapien.</p>
+	</div>
+	<script>
+		function adjustFontSize() {
+			var windowHeight = window.innerHeight;
+			var myDivHeight = document.getElementById("myDiv").offsetHeight;
+			var currentFontSize = parseInt(window.getComputedStyle(document.getElementById("myDiv")).fontSize);
+
+			var newFontSize = Math.floor(currentFontSize * (windowHeight / myDivHeight));
+			document.getElementById("myDiv").style.fontSize = newFontSize + "px";
+		}
+		window.onresize = adjustFontSize;
+	</script>
+</body>
+</html>

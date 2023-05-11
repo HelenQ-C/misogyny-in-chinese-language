@@ -1,0 +1,126 @@
+body  {
+    background-color: black;
+}
+
+.maintitle {
+font-family: 'Noto Sans SC';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 53px;
+text-transform: uppercase;
+
+color: #871E1E;
+position: fixed;
+top: 20px;
+left: 30px;
+}
+
+.subtitle {
+    font-family: 'Noto Sans SC';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17.5px;
+    line-height: 53px;
+    text-transform: uppercase;
+    
+    color: #871E1E;
+    position: fixed;
+    top: 50px;
+    left: 30px;
+}
+
+.detailword {
+    /* 荡妇 */
+
+    position: fixed;
+width: 780px;
+height: 300px;
+right: 40px;
+top: 40px;
+
+font-family: 'Noto Serif SC';
+font-style: normal;
+font-weight: 900;
+font-size: 350px;
+line-height: 300px;
+/* identical to box height, or 75% */
+text-align: right;
+letter-spacing: -0.05em;
+
+color: #871E1E;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.def {
+    font-family: 'Noto Sans SC';
+    font-style: normal;
+    color: #871E1E;
+    position: fixed;
+    top: 550px;
+    left: 30px;
+    text-transform: uppercase;
+}
+
+.tag {
+    font-family: 'Noto Sans SC';
+    font-style: normal;
+    color: #871E1E;
+    position: fixed;
+    right: 40px;
+    top: 425px;
+    text-transform: uppercase;
+
+}
+
+.exp {
+    font-family: 'Noto Sans SC';
+    font-style: normal;
+    color: #871E1E;
+    z-index: -1;
+}
+
+.p {
+    position: absolute;
+    right: 40px;
+    top: 550px;
+    width: 45%;
+    z-index: -1;
+}
+
+a:link { 
+    text-decoration: none; 
+    color: #871E1E;
+
+}
+a:visited { 
+    text-decoration: none; color: #871E1E;
+}
+a:hover { 
+    text-decoration: underline;
+ }
+
+ .type {
+    position: fixed;
+    right: 40px;
+    top: 400px;
+ }
+
+ .black {
+    position: fixed;
+    left: -10px;
+    top: -10px;
+    height: 500px;
+    width: 105%;
+    background-color: black;
+ }
+
+ .meaning {
+    font-weight: 700;
+ }
+
+ .origin {
+    font-weight: 700;
+ }
