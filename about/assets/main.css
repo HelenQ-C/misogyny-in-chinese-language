@@ -132,3 +132,47 @@ a:hover { text-decoration: none; }
     font-style: normal;
     color: #871E1E;
 }
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+    .about {
+        font-family: 'Noto Sans SC';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        text-transform: uppercase;
+        border: 2.5px solid #871E1E;
+        border-radius: 50px;
+        color: #871E1E;
+        width: 95px;
+        position: fixed;
+        right: 20px;
+        top: 25px;
+        padding-left: 12px;
+        padding-bottom: 3px;
+        cursor: pointer;
+    }
+    
+    .index {
+        font-family: 'Noto Sans SC';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        text-transform: uppercase;
+        border: 2.5px solid #871E1E;
+        border-radius: 50px;
+        color: #871E1E;
+        width: 85px;
+        position: fixed;
+        right: 20px;
+        top: 25px;
+        padding-left: 12px;
+        padding-bottom: 3px;
+        cursor: pointer;
+    }
+    
+    .language {
+        display: none;
+    }
+}
