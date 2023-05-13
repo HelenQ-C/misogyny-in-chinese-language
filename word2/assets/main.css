@@ -124,3 +124,71 @@ a:hover {
  .origin {
     font-weight: 700;
  }
+
+ @media screen and (max-width: 480px) and (min-width: 320px) {
+    .detailword {
+        position: fixed;
+        width: 780px;
+        height: 300px;
+        right: 20px;
+        top: 60px;
+        
+        font-family: 'Noto Serif SC';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 200px;
+        line-height: 300px;
+        /* identical to box height, or 75% */
+        text-align: right;
+        letter-spacing: -0.05em;
+        
+        color: #871E1E;
+        
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .tag {
+        font-family: 'Noto Sans SC';
+        font-style: normal;
+        color: #871E1E;
+        position: fixed;
+        left: 30px;
+        top: 360px;
+        text-transform: uppercase;
+    
+    }
+    .type {
+        position: fixed;
+        left: 30px;
+        top: 340px;
+     }
+
+     .def {
+        top: 405px;
+     }
+
+     .p {
+        position: absolute;
+        left: 30px;
+        top: 575px;
+        width: 85%;
+        z-index: -1;
+    }
+
+    .exp {
+        font-family: 'Noto Sans SC';
+        font-style: normal;
+        color: #871E1E;
+        z-index: -1;
+        font-size: 20px;
+    }
+
+    .black {
+        position: fixed;
+        left: -10px;
+        top: -10px;
+        height: 575px;
+        width: 105%;
+        background-color: black;
+     }
+ }
